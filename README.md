@@ -3,6 +3,10 @@
 Aplicação desenvolvida durante o Ignite Lab promovido pela Rocketseat
 O objetivo da aplicação é desenvolver um design system com tecnologias modernas de UI/UX.
 
+### Documentação
+
+[Github pages](https://lgustta13.github.io/lab-ds/)
+
 ### Tecnologias utilizadas
 
 [Figma](https://www.figma.com/file/Ub8FrtzwgyEtCrOKdcQbVy/Ignite-Lab-Design-System?node-id=5%3A63) - site com a finalidade de proporcionar ferramentas de design de interfaces
@@ -72,4 +76,8 @@ Adicionar o seguinte script no package.json para fazer deploy no GitHub Pages
 
 1. Com as configurações de deploy e build feitas (arquivo deploy-docs.yml e yarn build-storybook ou npm run build-storybook), dar um push do código para o repositório no github
 2. No Github - Actions, verificar a action de build e deploy do storybook sendo realizada (Tudo automatizado por conta do arquivo deploy-docs.yml)
-3.
+3. Assim que terminar, na etapa de deploy é possível ver a url do storybook
+4. Observe a nova branch criada para ghpages, onde se encontra o conteúdo estático do sb
+5. Em Settings - Pages - Deploy from a branch - Select branch - Save, para criar a documentação
+6. No Github - Actions, verificar o processo de deploy sendo feito pelo gerador de sites estáticos
+7. Por fim, acessar o link para visualizar a documentação!
