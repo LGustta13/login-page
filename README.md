@@ -51,3 +51,19 @@ npm install @radix-ui/react-slot @radix-ui/react-checkbox
 ```
 npm i phosphor-react
 ```
+
+### Deploy da documentação
+
+[Storybook deployer](https://github.com/storybookjs/storybook-deployer) - ferramenta que permite fazer deploy do storybook em serviços de hospedagem estáticos
+
+```
+npm i @storybook/storybook-deployer --save-dev
+```
+
+Adicionar o seguinte script no package.json para fazer deploy no GitHub Pages
+
+```
+"deploy-storybook": "storybook-to-ghpages"
+```
+
+[CI/CD](https://www.redhat.com/pt-br/topics/devops/what-is-ci-cd) - metodologia baseada em worflow de integração contínua. É utilizado para que toda vez quando enviar atualizações para o repositório do github, o github pages também será atualizado com a documentação do storybook (instalar o storybook-deployer e criar arquivo deploy-docs.yml)
