@@ -1,16 +1,23 @@
+// Slot é um componente do radix no qual pode-se trocar de seletor ou tag
+import { Slot } from '@radix-ui/react-slot';
 import { clsx } from 'clsx';
+import { ReactNode } from 'react';
 
 export type TextProps = {
     size?: 'sm' | 'md' | 'lg';
-    children: string;
+    children: ReactNode;
+    asChild?: boolean;
 }
 
 // Define-se um tamanho padrão
-export function Text({ size = 'md', children }: TextProps) {
+export function Text({ size = 'md', children, asChild }: TextProps) {
+    const Comp = asChild ? Slot : 'span';
+
     return (
 
         // O clsx é aplicado aqui, usando classes de forma condicional
-        <span className={clsx(
+        // O Slot entra aqui se caso o asChild for true
+        <Comp className={clsx(
             "text-gray-100 font-sans",
             {
                 'text-xs': size === 'sm',
@@ -19,6 +26,6 @@ export function Text({ size = 'md', children }: TextProps) {
             }
         )}>
             {children}
-        </span>
+        </Comp>
     );
 }

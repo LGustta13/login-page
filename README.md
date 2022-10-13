@@ -25,17 +25,25 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
 
-[Storybook](https://storybook.js.org/docs/react/get-started/introduction) - Biblioteca utilizada juntamente ao desenvolvimento do código para documentar os componentes, facilita a visualização dos componentes em todas as suas variações de forma documentada (vai criar uma pasta .storybook, baixar a extensão mdx)
+[Storybook](https://storybook.js.org/docs/react/get-started/introduction) - Biblioteca utilizada juntamente ao desenvolvimento do código para documentar os componentes, facilita a visualização dos componentes em todas as suas variações de forma documentada (vai criar uma pasta .storybook, baixar a extensão mdx, sempre que alguma informação de um arquivo.stories modificar as atualizações são feitas na documentação localhost)
 
 ```
 npx sb init --builder @storybook/builder-vite --use-npm
 npm run storybook
 ```
 
-clsx - pacote que permite aplicar classes em componentes de maneira condicional
+[clsx](https://www.npmjs.com/package/clsx) - pacote que permite aplicar classes em componentes de maneira condicional
 
 ```
 npm install --save clsx
 ```
 
-[radix-ui]()
+[radix-ui](https://www.radix-ui.com/) - biblioteca de componentes que fornece componentes de UI para a aplicação, utilizado para design systems (instalar o componente slot)
+
+```
+npm install @radix-ui/react-slot
+```
+
+[Slot](https://www.radix-ui.com/docs/primitives/utilities/slot) - pega as propriedades de um componente e repasa para o primeiro componente que vem com o children
+
+# parei em 58:30
