@@ -25,7 +25,7 @@ jobs:
 
       # Comando para executar o npm ci (baixa as dependêncais de projeto) em ambientes não interativos (observar o uso do ubuntu)
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --force
 
       - name: Build Storybook
         run: npm run build-storybook
