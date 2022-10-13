@@ -1,0 +1,4 @@
+/* Três bibliotecas do tailwind com as classes de estilização */
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
