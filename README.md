@@ -5,7 +5,7 @@ O objetivo da aplicação é desenvolver um design system com tecnologias modern
 
 ### Tecnologias utilizadas
 
-Figma - site com a finalidade de proporcionar ferramentas de design de interfaces
+[Figma](https://www.figma.com/file/Ub8FrtzwgyEtCrOKdcQbVy/Ignite-Lab-Design-System?node-id=5%3A63) - site com a finalidade de proporcionar ferramentas de design de interfaces
 
 [ReactJS](https://pt-br.reactjs.org/) - biblioteca javascript para criar os componentes JSX da aplicação e rodas no browser
 
