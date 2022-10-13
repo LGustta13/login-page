@@ -38,10 +38,10 @@ npm run storybook
 npm install --save clsx
 ```
 
-[radix-ui](https://www.radix-ui.com/) - biblioteca de componentes que fornece componentes de UI para a aplicação, utilizado para design systems (instalar o componente slot)
+[radix-ui](https://www.radix-ui.com/) - biblioteca de componentes que fornece componentes de UI para a aplicação, utilizado para design systems (instalar o componente slot e checkbox)
 
 ```
-npm install @radix-ui/react-slot
+npm install @radix-ui/react-slot @radix-ui/react-checkbox
 ```
 
 [Slot](https://www.radix-ui.com/docs/primitives/utilities/slot) - pega as propriedades de um componente e repasa para o primeiro componente que vem com o children
