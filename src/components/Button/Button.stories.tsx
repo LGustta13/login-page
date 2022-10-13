@@ -8,7 +8,7 @@ export default {
 
     // propriedades do meu componente
     args: {
-        children: 'Lorem ipsum',
+        children: 'Button',
     },
 
     argTypes: {}
