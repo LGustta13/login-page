@@ -1,10 +1,10 @@
 import { Meta, StoryObj } from '@storybook/react';
-import { TextProps, Text } from './';
+import { HeadingProps, Heading } from './';
 
 // Configurações globais do componente que vai no sb
 export default {
-    title: 'Components/Text',
-    component: Text,
+    title: 'Components/Heading',
+    component: Heading,
 
     // propriedades do meu componente
     args: {
@@ -22,28 +22,28 @@ export default {
             }
         }
     }
-} as Meta<TextProps>
+} as Meta<HeadingProps>
 
 // Daqui por diante temos várias variações do componente
-export const Default: StoryObj<TextProps> = {}
+export const Default: StoryObj<HeadingProps> = {}
 
-export const Small: StoryObj<TextProps> = {
+export const Small: StoryObj<HeadingProps> = {
     args: {
         size: 'sm'
     }
 }
 
-export const Large: StoryObj<TextProps> = {
+export const Large: StoryObj<HeadingProps> = {
     args: {
         size: 'lg'
     }
 }
 
-export const CustomComponent: StoryObj<TextProps> = {
+export const CustomComponent: StoryObj<HeadingProps> = {
     args: {
         asChild: true,
         children: (
-            <p>Testando com a tag P</p>
+            <h1>Testando com tag h1</h1>
         )
     },
 
@@ -61,4 +61,3 @@ export const CustomComponent: StoryObj<TextProps> = {
         }
     }
 }
-
