@@ -45,3 +45,9 @@ npm install @radix-ui/react-slot
 ```
 
 [Slot](https://www.radix-ui.com/docs/primitives/utilities/slot) - pega as propriedades de um componente e repasa para o primeiro componente que vem com o children
+
+[Phosphor](https://phosphoricons.com/) - biblioteca de ícones para utilizar com react
+
+```
+npm i phosphor-react
+```
