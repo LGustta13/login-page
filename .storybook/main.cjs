@@ -18,12 +18,12 @@ module.exports = {
     "storyStoreV7": true
   },
 
-  // TIVE PROBLEMA AQUI QUANDO FUI BUILDAR O STORYBOOK
-  // 
   // Essa linha é inserida para que o storybook não se perca com as pastas quando for acessá-lo a partir do github pages
   viteFinal: (config, {configType}) => {
     if(configType === 'PRODUCTION') {
       config.base = '/lab-ds/'
     }
+
+    return config
   }
 }

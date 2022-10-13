@@ -72,3 +72,4 @@ Adicionar o seguinte script no package.json para fazer deploy no GitHub Pages
 
 1. Com as configurações de deploy e build feitas (arquivo deploy-docs.yml e yarn build-storybook ou npm run build-storybook), dar um push do código para o repositório no github
 2. No Github - Actions, verificar a action de build e deploy do storybook sendo realizada (Tudo automatizado por conta do arquivo deploy-docs.yml)
+3.
